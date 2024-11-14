@@ -11,14 +11,14 @@ public class Menu {
 		int opcao;
 		String produto;
 		boolean continua = true;
-
+		
 		while (continua) {
 			System.out.println("                                                            ");
-			System.out.println("                       SOLÁRIA                              ");
+			System.out.println("                     JOALHERIA SOLÁRIA                      ");
 			System.out.println("                                                            ");
 			System.out.println("************************************************************");
 			System.out.println("                                                            ");
-			System.out.println("              1 - Criar Produto                             ");
+			System.out.println("              1 - Cadastrar Produto                         ");
 			System.out.println("              2 - Listar Produto                            ");
 			System.out.println("              3 - Atualizar Produto                         ");
 			System.out.println("              4 - Deletar Produto                           ");
@@ -30,7 +30,7 @@ public class Menu {
 
 			switch (opcao) {
 			case 1:
-				System.out.println("Criar Produto\n\n");
+				System.out.println("Cadastrar Produto\n\n");
 
 				System.out.println("Digite o nome do Produto: ");
 				leia.skip("\\R?");
