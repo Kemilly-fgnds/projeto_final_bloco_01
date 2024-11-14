@@ -1,4 +1,6 @@
-package model.repository;
+package repository;
+
+import model.repository.Principal;
 
 public interface Repository {
 	
